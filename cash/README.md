@@ -16,13 +16,13 @@ Open a commander console at the Cash project root and run the command :
 
 ## Utilisation
 
-###Usage:
+### Usage:
 
  *$ cash <amount> <currency>
 
  *$ cash <command>
 
-###Commands:
+### Commands:
 *--save,  -s       Save currencies as default currencies
 *--help,  -h       Display help message
 *--version,  -v     Display version number
