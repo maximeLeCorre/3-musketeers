@@ -18,14 +18,14 @@ Open a commander console at the Cash project root and run the command :
 
 ### Usage:
 
- *$ cash <amount> <currency>
+* $ cash \<amount\> \<currency\>
 
- *$ cash <command>
+* $ cash \<command\>
 
 ### Commands:
-*--save,  -s       Save currencies as default currencies
-*--help,  -h       Display help message
-*--version,  -v     Display version number
+* --save,  -s       Save currencies as default currencies
+* --help,  -h       Display help message
+* --version,  -v     Display version number
 
 All supported currencies are available here : [Currencies](https://github.com/xxczaki/cash-cli/blob/master/lib/currencies.json)
 
