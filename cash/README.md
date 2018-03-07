@@ -2,10 +2,6 @@
 
 Cash allow you to make convertion of currencies only with a command line
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
 First of all if you need to have Node.js on your computer
@@ -17,6 +13,10 @@ First of all if you need to have Node.js on your computer
 Open a console commander to the cash project root and run the command :
 
 * npm install
+
+### Utilisation
+
+All curencies supported are available here : [Currencies](https://github.com/xxczaki/cash-cli/blob/master/lib/currencies.json)
 
 ## Authors
 
