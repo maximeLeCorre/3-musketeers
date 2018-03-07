@@ -16,16 +16,23 @@ Open a commander console at the Cash project root and run the command :
 
 ## Utilisation
 
+In the Cash folder.
+
 ### Usage:
 
-* $ cash \<amount\> \<currency\>
+* node bin/index.js \<amount\> \<currency\>
 
-* $ cash \<command\>
+* node bin/index.js \<command\>
 
 ### Commands:
 * --save,  -s       Save currencies as default currencies
 * --help,  -h       Display help message
 * --version,  -v     Display version number
+
+#### Examples
+
+    node bin/index.js 1 usd eur // returns √ 0.81 (EUR) Euro
+    node bin/index.js 1 usd aud rub cad // returns √ 1.28 (AUD) Australian Dollar √ 56.86 (RUB) Russian Rouble √ 1.29 (CAD) Canadian Dollar
 
 All supported currencies are available here : [Currencies](https://github.com/xxczaki/cash-cli/blob/master/lib/currencies.json)
 
