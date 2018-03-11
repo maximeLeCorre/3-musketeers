@@ -4,8 +4,10 @@ const convert = require('..');
 const Big = require('big.js');
 
 test('should default to returning a Number', () => {
-  //convert(2, 'BTC', 'BTC');
-  throw new Error('test not yet defined... write your test here');
+  var test = convert(2, 'BTC', 'BTC');
+  if(typeof test != 'number'){
+	throw new Error('returning : ' typeof test);
+  }
 });
 
 test('should return a Number', () => {

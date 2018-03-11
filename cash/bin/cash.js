@@ -7,6 +7,15 @@ const currencies = require('../lib/currencies.json');
 
 const API = 'https://api.fixer.io/latest';
 
+/**
+* Converts to the right currency
+* @param {string} amount - Amount to convert
+* @param {array} to - All currencies to convert to
+* @param {string} from - The currency of (amount) to convert 
+* @param {object} response - A JSon with all the currencies
+* @param {object} loading - A JSon used to for displaying the result in the commander console
+*/
+
 const convert = configuration => {
   const {amount, to, from, response, loading} = configuration;
 
@@ -33,6 +42,13 @@ const convert = configuration => {
   );
   process.exit(1);
 };
+
+/**
+* Function that initilisate all parameters entered by the user and get the JSon with all currencies from an API
+* @param {string} amount - Fill with the amount entered by the user
+* @param {string} from - Fill with the currency to convert from entered by the user
+* @param {string} to - Fill with the currencies to convert to entered by the user
+*/
 
 const cash = async command => {
   const amount = command.amount;
